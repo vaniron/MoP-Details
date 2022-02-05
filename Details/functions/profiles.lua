@@ -671,7 +671,7 @@ local default_profile = {
 		},
 
 	--> class icons and colors
-		class_icons_small = [[Interface\AddOns\Details\images\classes_small]],
+		class_icons_small = [[Interface\TargetingFrame\UI-Classes-Circles]],
 		class_coords = {
 			["DEMONHUNTER"] = {
 				0.73828126, -- [1]
@@ -716,10 +716,10 @@ local default_profile = {
 				0.25, -- [4]
 			},
 			["MONK"] = {
-				0, -- [1]
-				0.25, -- [2]
-				0, -- [3]
-				0.25, -- [4]
+				0.5, -- [1]
+				0.73828125, -- [2]
+				0.5, -- [3]
+				0.75, -- [4]
 			},
 			["DEATHKNIGHT"] = {
 				0.25, -- [1]
