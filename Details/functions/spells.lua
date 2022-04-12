@@ -13,55 +13,80 @@ do
 		[49206] = 252, -- Summon Gargoyle
 		[55090] = 252, -- Scourge Strike (Physical)
 		[70890] = 252, -- Scourge Strike (Shadow)
-		[65142] = 252, -- Ebon Plague
+		[85948] = 252, -- Festering Strike
+		[49016] = 252, -- Unholy Frenzy
+		[63560] = 252, -- Dark Transformation
 
 		-- Frost Death Knight:
 		[49143] = 251, -- Frost Strike
 		[66196] = 251, -- Frost Strike Off-Hand
 		[49184] = 251, -- Howling Blast
+		[49020] = 251, -- Obliterate
+		[51271] = 251, -- Pillar of Frost
 
 		-- Blood Death Knight:
 		[55233] = 250, -- Vampiric Blood
-		[53138] = 250, -- Abomination's Might
 		[55050] = 250, -- Heart Strike
+		[48982] = 250, -- Rune Tap
+		[56815] = 250, -- Rune Strike
+		[49028] = 250, -- Dancing Rune Weapon
+		[49222] = 250, -- Bone Shield
 
 		-- Balance Druid:
-		[50288] = 102, -- Starfall
-		[93399] = 102, -- Shooting Stars
-		[78675] = 102, -- Solar Beam
-		[78674] = 102, -- Starsurge
+		[50288] = 102,  -- Starfall
+		[93399] = 102,  -- Shooting Stars
+		[78675] = 102,  -- Solar Beam
+		[78674] = 102,  -- Starsurge
+		[2912] = 102,   -- Starfire
+		[24858] = 102,  -- Moonkin Form
+		[93402] = 102,  -- Sunfire
+		[112071] = 102, -- Celestial Alignment
+		[88747] = 102,  -- Wild Mushroom
 
 		-- Feral Druid:
-		[52610] = 103, -- Savage Roar
-		[5217] = 103, -- Tiger's Fury, Rank 6
-		[1822] = 103, -- Rake, Rank 7
-		[1079] = 103, -- Rip, Rank 9
+		[52610] = 103,  -- Savage Roar
+		[5217] = 103,   -- Tiger's Fury
+		[5221] = 103,   -- Shred
+		[135700] = 103, -- Omen of Clarity
+		[69369] = 103,  -- Predatory Swiftness
 
 		-- Guardian Druid:
-		[33745] = 104, -- Lacerate
-		[6807] = 104, -- Maul
-		[62606] = 104, -- Savage Defense
+		[62606] = 104,  -- Savage Defense
+		[5229] = 104,   -- Enrage
+		[102795] = 104, -- Bear Hug
+		[135286] = 104, -- Tooth and Claw
 
 		-- Restoration Druid:
 		[100977] = 105, -- Harmony
-		[48438] = 105, -- Wild Growth
-		[18562] = 105, -- Swiftmend
+		[48438] = 105,  -- Wild Growth
+		[18562] = 105,  -- Swiftmend
+		[50464] = 105,  -- Nourish
+		[8936] = 105,   -- Regrowth
+		[33763] = 105,  -- Lifebloom
+		[102342] = 105, -- Ironbark
+		[102791] = 105, -- Wild Mushroom: Bloom
+		[145518] = 105, -- Genesis
 
 		-- Beast Mastery Hunter:
-		[34471] = 253, -- Bestial Wrath
+		[19574] = 253, -- Bestial Wrath
 		[53257] = 253, -- Cobra Strikes
 		[34026] = 253, -- Kill Command
 		[82692] = 253, -- Focus Fire
 
 		-- Marksmanship Hunter:
 		[53209] = 254, -- Chimera Shot
-		[19506] = 254, -- Trueshot Aura
 		[19434] = 254, -- Aimed Shot
+		[82921] = 254, -- Bombardment
+		[34487] = 254, -- Master Marksman
+		[53224] = 254, -- Steady Focus
+		[53232] = 254, -- Rapid Recuperation
+		[76659] = 254, -- Mastery: Wild Quiver
 
 		-- Survival Hunter:
-		[3674] = 255, -- Black Arrow Rank 6
-		[53301] = 255, -- Explosive Shot Rank 4
+		[3674] = 255,  -- Black Arrow
+		[53301] = 255, -- Explosive Shot
 		[56453] = 255, -- Lock and Load
+		[82834] = 255, -- Improved Serpent Sting
 
 		-- Arcane Mage:
 		[12042] = 62, -- Arcane Power
@@ -70,20 +95,28 @@ do
 		[82930] = 62, -- Arcane Tactics
 
 		-- Fire Mage:
-		[31661] = 63, -- Dragon's Breath, Rank 6
-		[11366] = 63, -- Pyroblast
+		[31661] = 63,  -- Dragon's Breath
+		[11366] = 63,  -- Pyroblast
+		[133] = 63,    -- Fireball
+		[108853] = 63, -- Inferno Blast
+		[2948] = 63,   -- Scorch
+		[11129] = 63,  -- Combustion
 
 		-- Frost Mage:
-		[44544] = 64, -- Fingers of Frost
-		[11426] = 64, -- Ice Barrier
-		[44572] = 64, -- Deep Freeze
+		[44544] = 64,  -- Fingers of Frost
+		[44572] = 64,  -- Deep Freeze
+		[116] = 64,	   -- Frostbolt
+		[31687] = 64,  -- Summon Water Elemental
+		[12472] = 64,  -- Icy Veins
+		[131078] = 64, -- Icy Veins Glyphed
+		[84714] = 64,  -- Frozen Orb
 
 		-- Holy Paladin:
 		[31842] = 65, -- Divine Favor
 		[25914] = 65, -- Holy Shock
 		[54149] = 65, -- Infusion of Light
 		[20053] = 65, -- Conviction
-		[86273] = 65, -- Illuminated Healing (mastery)
+		[86273] = 65, -- Mastery: Illuminated Healing
 		[85222] = 65, -- Light of Dawn
 
 		-- Protection Paladin:
@@ -93,108 +126,152 @@ do
 		[31850] = 66, -- Ardent Defender
 
 		-- Retribution Paladin:
-		[53385] = 70, -- Divine Storm
-		[85256] = 70, -- Templar's Verdict
-		[89906] = 70, -- Judgements of the Bold
-		[84963] = 70, -- Inquisition
+		[53385] = 70,  -- Divine Storm
+		[85256] = 70,  -- Templar's Verdict
+		[84963] = 70,  -- Inquisition
+		[879] = 70,    -- Exorcism
+		[121783] = 70, -- Emancipate
 		
 		-- Discipline Priest:
-		[10060] = 256, -- Power Infusion
-		[89485] = 256, -- Inner Focus
-		[33206] = 256, -- Pain Suppression
-		[47750] = 256, -- Penance
-		[47753] = 256, -- Divine Aegis
-		[59888] = 256, -- Borrowed Time
-		[47755] = 256, -- Rapture
+		[89485] = 256,  -- Inner Focus
+		[33206] = 256,  -- Pain Suppression
+		[47750] = 256,  -- Penance
+		[47753] = 256,  -- Divine Aegis
+		[59888] = 256,  -- Borrowed Time
+		[47755] = 256,  -- Rapture
 		[114908] = 256, -- Spirit Shell
 
 		-- Holy Priest:
-		[34861] = 257, -- Circle of Healing, Rank 7
-		[47788] = 257, -- Guardian Spirit
-		[81206] = 257, -- Chakra: Sanctuary
-		[81208] = 257, -- Chakra: Serenity
+		[34861] = 257,  -- Circle of Healing
+		[47788] = 257,  -- Guardian Spirit
+		[81206] = 257,  -- Chakra: Sanctuary
+		[81208] = 257,  -- Chakra: Serenity
+		[81200] = 257,  -- Chakra: Chastise
+		[126135] = 257, -- Lightwell
+		[95649] = 257,  -- Rapid Renewal
+		[64843] = 257,  -- Divine Hymn
+		[88625] = 257,  -- Holy Word: Chastise
+		[88684] = 257,  -- Holy Word: Serenity
+		[88685] = 257,  -- Holy Word: Sanctuary
 
 		-- Shadow Priest:
 		[15286] = 258, -- Vampiric Embrace
 		[34914] = 258, -- Vampiric Touch
 		[15407] = 258, -- Mind Flay
 		[78203] = 258, -- Shadowy Apparitions
+		[2944] = 258,  -- Devouring Plague
+		[8092] = 258,  -- Mind Blast
+		[15473] = 258, -- Shadowform
+		[73510] = 258, -- Mind Spike
+		[15487] = 258, -- Silence
+		[47585] = 258, -- Dispersion
+		[64044] = 258, -- Psychic Horror
 
 		-- Assassination Rogue:
-		[32645] = 259, -- Envenom
-		[1329] = 259, -- Mutilate
-		[5374] = 259, -- Mutilate
-		[27576] = 259, -- Mutilate Off-Hand
-		[14177] = 259, -- Cold Blood
-		[51662] = 259, -- Hunger for Blood
+		[32645] = 259,  -- Envenom
+		[1329] = 259,   -- Mutilate
+		[5374] = 259,   -- Mutilate
+		[27576] = 259,  -- Mutilate Off-Hand
+		[111240] = 259, -- Dispatch
+		[79140] = 259,  -- Vendetta
 
 		-- Combat Rogue:
 		[51690] = 260, -- Killing Spree
 		[13750] = 260, -- Adrenaline Rush
 		[13877] = 260, -- Blade Flurry
-		[14251] = 260, -- Riposte
+		[84617] = 260, -- Revealing Strike
 
 		-- Subtlety Rogue:
-		[48660] = 261, -- Hemorrhage rank 5
+		[16511] = 261, -- Hemorrhage
 		[14183] = 261, -- Premeditation
-		[14185] = 261, -- Preparation
 		[51713] = 261, -- Shadow Dance
-		[14278] = 261, -- Ghostly Strike
+		[53] = 261,    -- Backstab
+		[91023] = 261, -- Find Weakness
 
 		-- Elemental Shaman:
-		[64701] = 262, -- Elemental Mastery
-		[16166] = 262, -- Elemental Mastery
-		[51490] = 262, -- Thunderstorm
-		[88767] = 262, -- Fulmination
+		[51490] = 262,  -- Thunderstorm
+		[88767] = 262,  -- Fulmination
+		[77756] = 262,  -- Lava Surge
+		[61882] = 262,  -- Earthquake
+		[45284] = 262,  -- Lightning Bolt Overload
+		[77451] = 262,  -- Lava Burst Overload
+		[120588] = 262, -- Elemental Blast Overload
+		[16246] = 262,  -- Clearcasting
 
 		-- Enhancement Shaman:
 		[51533] = 263, -- Feral Spirit
 		[51530] = 263, -- Maelstrom Weapon
 		[60103] = 263, -- Lava Lash
+		[17364] = 263, -- Stormstrike
+		[1535] = 263,  -- Fire Nova
+		[58875] = 263, -- Spirit Walk
 
 		-- Restoration Shaman:
 		[53390] = 264, -- Tidal Waves
-		[1064]  = 264, -- Chain Heal
 		[974]   = 264, -- Earth Shield
 		[61295] = 264, -- Riptide
+		[331] = 264,   -- Healing Wave
+		[77472] = 264, -- Greater Healing Wave
+		[16190] = 264, -- Mana Tide Totem
+		[51730] = 264, -- Earthliving Weapon Imbue
+		[51945] = 264, -- Earthliving Weapon HoT
+		[98008] = 264, -- Spirit Link Totem
 
 		-- Affliction :
-		[48181] = 265, -- Haunt
-		[30108] = 265, -- Unstable Affliction
+		[48181] = 265,  -- Haunt
+		[30108] = 265,  -- Unstable Affliction
+		[1120] = 265,   -- Drain Soul
+		[74434] = 265,  -- Soulburn
+		[980] = 265,    -- Agony
+		[103103] = 265, -- Malefic Grasp
+		[108558] = 265, -- Nightfall
+		[27243] = 265,  -- Seed of Corruption
+		[86121] = 265,  -- Soul Swap
+		[113860] = 265, -- Dark Soul: Misery
 
 		-- Demonology Warlock:
-		[30146] = 266, -- Summon Felguard
-		[47241] = 266, -- Metamorphosis
-		[47193] = 266, -- Demonic Empowerment
-		[71521] = 266, -- Hand of Gul'dan
+		[30146] = 266,  -- Summon Felguard
+		[103958] = 266, -- Metamorphosis
+		[105174] = 266, -- Hand of Gul'dan
+		[6353] = 266,   -- Soul Fire
+		[1949] = 266,   -- Hellfire
+		[113861] = 266, -- Dark Soul: Knowledge
 
 		-- Destruction Warlock:
-		[50796] = 267, -- Chaos Bolt, Rank 4
-		[17962] = 267, -- Conflagrate
-		[80240] = 267, -- Bane of Havoc
+		[116858] = 267, -- Chaos Bolt
+		[17962] = 267,  -- Conflagrate
+		[80240] = 267,  -- Havoc
+		[29722] = 267,  -- Incinerate
+		[348] = 267,    -- Immolate
+		[114635] = 267, -- Ember Tap
+		[17877] = 267,  -- Shadowburn
+		[108683] = 267, -- Fire and Brimstone
+		[113858] = 267, -- Dark Soul: Instability
 
 		-- Arms Warrior:
-		[12328] = 71, -- Sweeping Strikes
-		[60503] = 71, -- Taste for Blood
-		[12294] = 71, -- Mortal Strike
-		[76858] = 71, -- Opportunity Strike (mastery)
+		[12328] = 71,  -- Sweeping Strikes
+		[60503] = 71,  -- Taste for Blood
+		[12294] = 71,  -- Mortal Strike
+		[76858] = 71,  -- Opportunity Strike (mastery)
+		[1464] = 71,   -- Slam
+		[118038] = 71, -- Die by the Sword
 
 		-- Fury Warrior:
-		[23881] = 72, -- Bloodthirst
-		[29801] = 72, -- Rampage
-		[23588] = 72, -- Dual Wield Specialization, Rank 5
-		[46917] = 72, -- Titan's Grip
-		[49152] = 72, -- Titan's Grip Effect
+		[23881] = 72,  -- Bloodthirst
+		[100130] = 72, -- Wild Strike
+		[85288] = 72,  -- Raging Blow
+		[85739] = 72,  -- Meat Cleaver
 
 		-- Protection Warrior:
-		[871] = 73, -- Shield Wall
-		[12975] = 73, -- Last Stand
-		[57823] = 73, -- Revenge
-		[47498] = 73, -- Devastate
-		[2565] = 73, -- Shield Block
-		[47488] = 73, -- Shield Slam
-		[46953] = 73, -- Sword and Board
-		[50227] = 73, -- Sword and Board Trigger
+		[12975] = 73,  -- Last Stand
+		[6572] = 73,   -- Revenge
+		[20243] = 73,  -- Devastate
+		[2565] = 73,   -- Shield Block
+		[23922] = 73,  -- Shield Slam
+		[46953] = 73,  -- Sword and Board
+		[50227] = 73,  -- Sword and Board Trigger
+		[1160] = 73,   -- Demoralizing Shout
+		[112048] = 73, -- Shield Barrier
 
 		-- Windwalker Monk:
 		[113656] = 269, -- Fists of Fury
@@ -202,7 +279,9 @@ do
 		[107428] = 269, -- Rising Sun Kick
 		[101545] = 269, -- Flying Serpent Kick
 		[116740] = 269, -- Tigereye Brew
-
+		[122470] = 269, -- Touch of Karma
+		[115073] = 269, -- Spinning Fire Blossom
+		[137639] = 269, -- Storm, Earth, and Fire
 
 		-- Brewmaster Monk:
 		[115181] = 268, -- Breath of Fire
@@ -212,7 +291,11 @@ do
 		[121253] = 268, -- Keg Smash
 		[115180] = 268, -- Dizzying Haze
 		[119582] = 268, -- Purifying Brew
-		[115315] = 268, -- Black Ox Statue 
+		[115315] = 268, -- Black Ox Statue
+		[122057] = 268, -- Clash
+		[115213] = 268, -- Avert Harm
+		[118636] = 268, -- Power Guard
+		[115307] = 268, -- Shuffle
 
 		-- Mistweaver Monk:
 		[124682] = 270, -- Enveloping Mist
@@ -221,7 +304,12 @@ do
 		[115294] = 270, -- Mana Tea
 		[115175] = 270, -- Soothing Mist
 		[116670] = 270, -- Uplift
-
+		[116694] = 270, -- Surging Mist
+		[127722] = 270, -- Serpent's Zeal
+		[115313] = 270, -- Jade Serpent Statue
+		[116680] = 270, -- Thunder Focus Tea
+		[115310] = 270, -- Revival
+		[139598] = 270, -- Muscle Memory
 	}
 
 	_detalhes.ClassSpellList = {
@@ -498,7 +586,6 @@ do
 		[119611]	=	"MONK", --renewing mist
 		[116670]	=	"MONK", -- Uplift
 		[115310]	=	"MONK", --revival
-		[116670]	=	"MONK", --uplift
 		[115175]	=	"MONK", --soothing mist
 		[124041]	=	"MONK", --gift of the serpent
 		[124040]	=	"MONK", -- shi torpedo
@@ -793,44 +880,59 @@ do
 
 	_detalhes.AbsorbSpells = {
 		-- Death Knight
-		[48707] = 5, -- Anti-Magic Shell (DK) Rank 1 -- Does not currently seem to show tracable combat log events. It shows energizes which do not reveal the amount of damage absorbed
-		[51052] = 10, -- Anti-Magic Zone (DK)( Rank 1 (Correct spellID?)
+		[48707] = 5, -- Anti-Magic Shell
+		[51052] = 10, -- Anti-Magic Zone
 			-- Does DK Spell Deflection show absorbs in the CL?
-		[77535] = 10, -- Blood Shield (DK)
+		[77535] = 10, -- Blood Shield
+		
+		[116888]	=	3, -- Shroud of Purgatory (Talent)
+		[115635]	=	12, -- Death Coil (Glyph)
+
 		-- Druid
-		[62606] = 10, -- Savage Defense proc. (Druid) Tooltip of the original spell doesn't clearly state that this is an absorb, but the buff does.
+		
 		-- Mage
-		[11426] = 60, -- Ice Barrier (Mage) Rank 1
-		[1463] = 60, --  Mana shield (Mage) Rank 1
-		[543] = 30, -- Mage Ward
+		[11426] = 60, -- Ice Barrier (Talent)
+		[1463] = 8, -- Encanter's Ward (Talent)
+
+		[140468] = 86400, -- Flame Glow Passive (Talent)
+
 		-- Monk
-		[118604] = 5, -- Guard Statue
-		[115295] = 5, -- Guard
-		[145411] = 5, -- Yulons Barrier
+		[118604] = 30, -- Guard Statue
+		[115295] = 30, -- Guard
 		[116849] = 12, -- Life Cocoon
+
+		[145051] = 30, -- Brewmaster T16 2p
+		[145441] = 15, -- Mistweaver T16 2p
+		[122470] = 10, -- Touch of Karma
+
 		-- Paladin
-		[86273] = 6, -- Illuminated Healing
-		[88063] = 6, -- Guarded by the Light
-		[96263] = 15, -- Sacred Shield
+		[86273] = 15, -- Illuminated Healing
+		[65148] = 6, -- Sacred Shield
+
 		-- Priest
-		[17] = 30, -- Power Word: Shield (Priest) Rank 1
-		[47509] = 12, -- Divine Aegis (Priest) Rank 1
-		[47511] = 12,
-		[47515] = 12, -- Divine Aegis (Priest) Rank 3 (Some of these are not actual buff spellIDs)
-		[47753] = 12, -- Divine Aegis (Priest) Rank 1
-		[54704] = 12, -- Divine Aegis (Priest) Rank 1
-		[47788] = 10, -- Guardian Spirit  (Priest) (50 nominal absorb, this may not show in the CL)
-		[62618] = 25, -- Power Word: Barrier
-		[81781] = 25, -- Power Word: Barrier
-		[114908] = 12, -- Spirit Shell absorb
+		[17] = 15, -- Power Word: Shield
+		[47753] = 15, -- Divine Aegis
+		[47788] = 10, -- Guardian Spirit
+		[114908] = 15, -- Spirit Shell
+
+		[114214] = 20, -- Angelic Bulwark (Talent)
+
 		-- Shaman
-		[145379] = 15, -- Nature's Barrier
+		[145379] = 15, -- Resto T16 2p
+
+		[114893]	=	10, -- Stone Bulwark (Talent)
+
 		-- Warlock
-		[108366] = 30, -- Soul Leech
-		[7812] = 30, -- Sacrifice (warlock)
-		[6229] = 30, -- Shadow Ward (warlock)
+		[108366] = 15, -- Soul Leech (Talent)
+		[7812] = 30, -- Sacrifice (Voidwalker?)
+		[6229] = 30, -- Twilight Ward
+
+		[108416] = 20, --  Sacrifical Pact (Talent)
+		[110913] = 8, -- Dark Bargain (Talent)
+
 		--Warrior
 		[112048] = 15, -- Shield Barrier
+
 		-- Consumables
 		[29674] = 86400, -- Lesser Ward of Shielding
 		[29719] = 86400, -- Greater Ward of Shielding (these have infinite duration, set for a day here :P)
@@ -859,6 +961,7 @@ do
 		[17549] = 120, -- Greater Arcane
 		[28527] = 15, -- Fel Blossom
 		[29432] = 3600, -- Frozen Rune usage (Naxx classic)
+
 		-- Item usage
 		[36481] = 4, -- Arcane Barrier (TK Kael'Thas) Shield
 		[57350] = 6, -- Darkmoon Card: Illusion
@@ -872,7 +975,6 @@ do
 		[31002] = 300, -- Pendant of the Null Rune
 		[30999] = 300, -- Pendant of Withering
 		[30994] = 300, -- Pendant of Thawing
-		[31000] = 300, -- Shadow Absorption
 		[23506]= 20, -- Arena Grand Master Usage (Aura of Protection)
 		[12561] = 60, -- Goblin Construction Helmet usage
 		[31771] = 20, -- Runed Fungalcap usage
@@ -881,6 +983,7 @@ do
 		[4057] = 60, -- Flame Deflector
 		[4077] = 60, -- Ice Deflector
 		[39228] = 20, -- Argussian Compass (may not be an actual absorb)
+
 		-- Item procs
 		[27779] = 30, -- Divine Protection - Priest dungeon set 1/2  Proc
 		[11657] = 20, -- Jang'thraze (Zul Farrak) proc
@@ -896,8 +999,14 @@ do
 		[64413] = 8, -- Val'anyr, Hammer of Ancient Kings proc Protection of Ancient Kings
 		[105909] = 6, -- Shield of Fury (Warrior T13 Protection 2P Bonus)
 		[105801] = 6, -- Delayed Judgement (Paladin T13 Protection 2P Bonus)
+
+		[116631]	=	10, -- enchant "Enchant Weapon - Colossus"
+		[140380]	=	15, -- trinket "Inscribed Bag of Hydra-Spawn"
+		[138925]	=	1000, -- trinket "Stolen Relic of Zuldazar"
+
 		-- Misc
 		[40322] = 30, -- Teron's Vengeful Spirit Ghost - Spirit Shield
+
 		-- Boss abilities
 		[65874] = 15, -- Twin Val'kyr's Shield of Darkness 175000
 		[67257] = 15, -- 300000
@@ -911,29 +1020,33 @@ do
 		[65684] = 86400, -- Twin Val'kyr Dark Essence
 	}
 
-	-- ~cooldown 1 self
+	-- ~cooldown duration self
 	_detalhes.DefensiveCooldownSpellsNoBuff = {
 		[20594]	= {120, 8, 1}, -- racial stoneform
 
 --		[6262] = {120, 1, 1}, -- healthstone
 
 --		["DEATHKNIGHT"] = {},
-		[48707]	= {45, 5, 1}, -- Anti-Magic Shell
 		[48743]	= {120, 0, 1}, -- Death Pact
 		[51052]	= {120, 3, 0}, -- Anti-Magic Zone
 		[48982]	= {30, 0, 1}, -- "Blood Tap"
 
 --		["DRUID"] = {},
 		[740]	= {480, 8, 0}, -- Tranquility
-		[22842]	= {0, 0, 1}, -- Frenzied Regeneration
+		[22842] = {1.5, 0, 1}, -- Frenzied Regeneration
+		[108238] = {120, 0, 1}, -- Renewal
 
 --		["HUNTER"] = {},
+		[5384] = {30, 0, 1}, -- Feign Death
+		[109304] = {120, 0, 1}, -- Exhilaration
 
 --		["MAGE"] = {},
-
+		[55342] = {180, 0, 1}, -- Mirror Image
 --		["PALADIN"] = {},
 		[633]	= {600, 0, 0}, -- Lay on Hands
 		[31821]	= {180, 6, 0}, -- Devotion Aura
+		[66235] = {180, 0, 1}, -- Ardent Defender Proc
+		[114039] = {30, 6, 0}, -- Hand of Purity
 
 --		["PRIEST"] = {},
 		[62618]	= {180, 10, 0}, -- Power Word: Barrier
@@ -943,6 +1056,7 @@ do
 		[142723] = {600, 0, 0}, --Void Shift shadow
 
 --		["ROGUE"] = {},
+		[76577] = {180, 5, 0}, -- Smoke Bomb
 
 --		["SHAMAN"] = {},
 
@@ -954,11 +1068,17 @@ do
 		[871]	= {180, 12, 1}, -- Shield Wall
 		[12975]	= {180, 20, 1}, -- Last Stand
 		[23920]	= {25, 5, 1}, -- Spell Reflection
+		[114030] = {120, 12, 0}, -- Vigilance
+		[114029] = {30, 6, 0}, -- Safeguard
+		[3411] = {30, 0, 0}, -- Intervene
+		[114203] = {180, 15, 0}, -- Demoralizing Banner
+		[1160] = {60, 10, 1}, -- Demoralizing Shout
+		[97462] = {180, 10, 0}, -- Rallying Cry
 	}
 
 	--> spellid = {cooldown, duration}
 	_detalhes.DefensiveCooldownSpells = {
-		-- Death Knigh
+		-- Death Knight
 		[55233] = {60, 10}, -- Vampiric Blood
 		[49222] = {60, 300}, -- Bone Shield
 		[48792] = {180, 12}, -- Icebound Fortitude
@@ -967,21 +1087,28 @@ do
 		[48707] = {45, 7}, -- Anti-Magic Shell
 		[49028] = {12, 10}, -- Dancing Rune Weapon
 		[51052] = {120, 10}, -- Anti-Magic Zone
-		["DEATHKNIGHT"] = {55233, 49222, 48792, 48743, 49039, 48707, 51052},
+		["DEATHKNIGHT"] = {55233, 49222, 48792, 48743, 49039, 48707, 49028, 51052, 48982},
 
 		-- Druid
 		[62606] = {1.5, 6}, -- Savage Defense
 		[61336] = {180, 12}, -- Survival Instincts
 		[22812] = {60, 12}, -- Barkskin
-		["DRUID"] = {62606, 61336, 22812, 740, 22842},
+		[106922] = {180, 20}, -- Might of Ursoc
+		["DRUID"] = {62606, 61336, 22812, 740, 22842, 108238},
 
 		-- Hunter
 		[19263] = {120, 5}, -- Deterrence
-		["HUNTER"] = {19263},
+		["HUNTER"] = {19263, 5384, 109304},
 
 		-- Mage
 		[45438] = {300, 12}, -- Ice Block
-		["MAGE"] = {45438},
+		[11426] = {25, 60}, -- Ice Barrier
+		[1463] = {25, 8}, -- Incanter's Ward
+		[110959] = {60, 3}, -- Greater Invisibility
+		[115610] = {25, 4}, -- Temporal Shield
+		[66] = {300, 3}, -- Invisibility
+		[108978] = {180, 6}, -- Alter Time
+		["MAGE"] = {45438, 11426, 1463, 110959, 115610, 66, 108978, 55342},
 
 		-- Paladin
 		[498] = {60, 10}, -- Divine Protection
@@ -989,39 +1116,59 @@ do
 		[6940] = {120, 12}, -- Hand of Sacrifice
 		[1022] = {300, 10}, -- Hand of Protection
 		[1038] = {120, 10}, -- Hand of Salvation
-		["PALADIN"] = {86659, 31850, 498, 642, 6940, 1022, 1038, 633, 31821},
+		[114039] = {30, 6}, -- Hand of Purity
+		[31850] = {180, 10}, -- Ardent Defender
+		[86659] = {180, 12}, -- Guardian of Ancient Kings
+		["PALADIN"] = {86659, 31850, 498, 642, 6940, 1022, 1038, 114039, 31850, 86659, 633, 31821, 66235},
 
 		-- Priest
 		[47788] = {180, 10}, -- Guardian Spirit
 		[47585] = {120, 6}, -- Dispersion
 		[33206] = {180, 8}, -- Pain Suppression
-		["PRIEST"] = {47788, 47585, 33206, 62618, 109964, 64843},
+		[112833] = {30, 6}, -- Spectral Guise
+		[114214] = {90, 20}, -- Angelic Bulwark
+		["PRIEST"] = {47788, 47585, 33206, 112833, 114214, 62618, 109964, 64843},
 
 		-- Rogue
 		[1966] = {1.5, 5}, -- Feint
 		[31224] = {60, 5}, -- Cloak of Shadows
 		[5277] = {180, 15}, -- Evasion
 		[1856] = {120, 0}, -- Vanish
-		["ROGUE"] = {1966, 31224, 5277, 1856, 76577},
+		[74001] = {120, 20}, -- Combat Readiness
+		[45182] = {360, 3}, -- Cheat Death
+		["ROGUE"] = {1966, 31224, 5277, 1856, 74001, 45182, 76577},
 
 		-- Shaman
 		[30823] = {60, 15}, -- Shamanistic Rage
-		["SHAMAN"] = {30823},
+		[108270] = {60, 30}, -- Stone Bulwark Totem
+		[108271] = {60, 6}, -- Astral Shift
+		[31616] = {30, 10}, -- Nature's Guardian
+		["SHAMAN"] = {30823, 108270, 108271, 31616},
 
 		-- Warlock
-		["WARLOCK"] = {6229},
+		[104773] = {180, 8}, -- Unending Resolve
+		[108359] = {120, 12}, -- Dark Regeneration
+		[110913] = {180, 8}, -- Dark Bargain
+		[108416] = {60, 20}, -- Sacrificial Pact
+		[132413] = {120, 20}, -- Shadow Bulwark
+		["WARLOCK"] = {104773, 108359, 110913, 108416, 132413, 6229},
 
 		-- Warrior
 		[871] = {180, 12}, -- Shield Wall
 		[12975] = {180, 20}, -- Last Stand
 		[23920] = {25, 5}, -- Spell Reflection
-		["WARRIOR"] = {871, 12975, 23920, 2565}
+		[118038] = {120, 8}, -- Die by the Sword
+		["WARRIOR"] = {871, 12975, 23920, 118038, 2565, 114030, 114029, 3411, 114203, 1160, 97462}
 	}
 
 
 	local Loc = LibStub("AceLocale-3.0"):GetLocale( "Details" )
 	_detalhes.SpellOverwrite = {
-		--[124464] = {name = GetSpellInfo(124464).."("..Loc["STRING_MASTERY"]..")"}, --> shadow word: pain mastery proc(priest)
+		[124464] = {name = GetSpellInfo(124464).." ("..Loc["STRING_MASTERY"]..")"}, --> Shadow Word: Pain mastery proc (Shadow Priest)
+		[124465] = {name = GetSpellInfo(124465).." ("..Loc["STRING_MASTERY"]..")"}, --> Vampiric Touch mastery proc (Shadow Priest)
+		[124468] = {name = GetSpellInfo(124468).." ("..Loc["STRING_MASTERY"]..")"}, --> Mind Flay mastery proc (Shadow Priest)
+		[124467] = {name = GetSpellInfo(124467).." ("..Loc["STRING_MASTERY"]..")"}, --> Devouring Plague mastery proc (Shadow Priest)
+		[124469] = {name = GetSpellInfo(124469).." ("..Loc["STRING_MASTERY"]..")"}, --> Mind Sear mastery proc (Shadow Priest)
 	}
 
 	function _detalhes:IsCooldown(spellid)
